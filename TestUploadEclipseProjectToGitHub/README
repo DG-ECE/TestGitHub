@@ -6,11 +6,21 @@ Step 2: Create new repository on GitHub to upload project to.
 
 Step 4: Copy URI link for GitHub Repository
 
-Step 3: Right-click project folder in Eclips -> Team -> Share Project: follow steps to create local repository.
+Step 3: Right-click project folder in Eclipse -> Team -> Share Project: follow steps to create local repository.
 N.B. Local repository can have same or different name than repository on GitHub that project will be uploaded to.
 
 Step 5: Initial Commit of project to repository: Right-click project folder -> Team -> Commit: 
 	-select all files in Unstaged Changes window and drag and drop to Staged Changes window
 	-enter a descriptive Commit Message
 	-press commit (or commit and push)
+This will push project to local repository
+
+Step 6: Right-click on project folder in Eclipse -> Team -> Show in Repositories View
+
+Step 7: Right-click on Remote -> Create Remote -> Change :
+	Enter name for remote repository - can be anything
+	Enter URI pasted from GitHub, enter credentials
 	
+	This should push to GitHub repository.
+
+	Can Confirm this by refreshing GitHub repository.
