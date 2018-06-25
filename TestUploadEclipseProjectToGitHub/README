@@ -9,6 +9,8 @@ Step 4: Copy URI link for GitHub Repository
 Step 3: Right-click project folder in Eclips -> Team -> Share Project: follow steps to create local repository.
 N.B. Local repository can have same or different name than repository on GitHub that project will be uploaded to.
 
-Step 5: Initial Commit of project to repository: Right-click projcet folder -> Team -> Commit: 
+Step 5: Initial Commit of project to repository: Right-click project folder -> Team -> Commit: 
 	-select all files in Unstaged Changes window and drag and drop to Staged Changes window
 	-enter a descriptive Commit Message
+	-press commit (or commit and push)
+	
